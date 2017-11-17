@@ -3,38 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Home template</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Panakeya</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="d-flex logo-menu">
-                <h1>
-                    <a href="#">
-                        <img src="images/panakeya-logo.png" width="174" height="62">
-                    </a>
-                </h1>
-                <nav class="nav-menu">
-                    <a href="#">Fusce at </a>
-                    <a href="#">Facilisis </a>
-                    <a href="#">Ante donec </a>
-                    <a href="#">Blandit rhoncus</a>
-                    <a href="#">Placerat</a>
-                </nav>
+<header class="header">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center logo-menu">
+            <h1>
+                <a href="#">
+                    <img src="images/panakeya-logo.png" alt="logo" width="174" height="62">
+                </a>
+            </h1>
+            <nav class="d-flex justify-content-center nav-menu">
+                <a href="#">Fusce at </a>
+                <a href="#">Facilisis </a>
+                <a href="#" class="active">Ante donec </a>
+                <a href="#">Blandit rhoncus</a>
+                <a href="#">Placerat</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="wellcome-section">
+    <img class="bg-wellcome" src="images/bg-wellcome-section.png" alt="" width="2000" height="1321">
+    <div class="container relative main-title">
+        <h2>Integer at tortor ut magna</h2>
+        <p>finibus lobortis sed quis tellus.</p>
+        <ul class="row  list-title">
+            <li class="col-4 ">
+                <a href="#">
+                    <img src="images/tincidunt.png" alt="" width="148" height="148">
+                </a>
+                <h3>
+                    <a href="#">Tincidunt</a>
+                </h3>
+                <p>
+                    Phasellus arcu justo, ullamcorper non diam sit amet,
+                    luctus condimentum metus. Nullam tempus egestas efficitur.
+                    Sed quam dolor
+                </p>
+
+            </li>
+            <li class="col-4">
+                <a href="#">
+                    <img src="images/bibendum.png" alt="" width="148" height="148">
+                </a>
+                <h3>
+                    <a href="#">Duis bibendum</a>
+                </h3>
+                <p>
+                    Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo.
+                    Phasellus arcu justo,llamcorper non diam sit amet,
+                    luctus condimentum metus. In hac habitasse platea dictumst.
+                </p>
+
+            </li>
+            <li class="col-4">
+
+                <a href="#">
+                    <img src="images/ligula.png" alt="" width="147" height="147">
+                </a>
+                <h3>
+                    <a href="#">Donec ligula</a>
+                </h3>
+                <p>
+                    Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et,
+                    sodales quis orci. Ut arcu arcu, faucibus eu risus blandit,.
+                </p>
+
+            </li>
+        </ul>
+        <button type="button" class="btn btn-light main-button">read more</button>
+    </div>
+</section>
+<section class="news">
+    <div class="container">
+        <h2 class="align-center">Our news</h2>
+        <ul class="d-flex row align-center">
+            <li class="col-4  list-news">
+                <a href="#">
+                    <img src="images/tea.png" alt="" width="371" height="254">
+                </a>
+                <p>Lorem ipsum</p>
+                <p>
+                    Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
+                    pretium lobortis erat. Nulla vitae hendrerit odio.
+                </p>
+                <button type="button" class="btn btn-light main-button button-list">Read more</button>
+            </li>
+            <li class="col-4 list-news">
+                <a href="#">
+                    <img src="images/cake.png" alt="" width="371" height="254">
+                </a>
+                <p>Lorem ipsum</p>
+                <p>
+                    Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
+                    pretium lobortis erat. Nulla vitae hendrerit odio.
+                </p>
+                <button type="button" class="btn btn-light main-button button-list">Read more</button>
+            </li>
+            <li class="col-4 list-news">
+                <a href="#">
+                    <img src="images/burger.png" alt="" width="371" height="254">
+                </a>
+                <p>Lorem ipsum</p>
+                <p>
+                    Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
+                    pretium lobortis erat. Nulla vitae hendrerit odio.
+                </p>
+                <button type="button" class="btn btn-light main-button button-list">Read more</button>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="section-form">
+    <form action="#" method="get">
+        <input type="email" name="email" placeholder="email adress">
+        <button type="button" class="btn btn-light main-button"> sign up</button>
+    </form>
+</section>
+<section class="bg-white">
+    <div class="container">
+        <div class="d-flex row ">
+            <div class="col-6 ">
+                <h3>Ipsum dolor sit amet</h3>
+                <p>
+                    Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor
+                    lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+                </p>
+                <p>
+                    Quisque ut erat ornare, feugiat turpis a, fringilla felis.
+                    Nulla molestie lorem et orci sagittis, et accumsan ex porta.
+                </p>
+                <button type="button" class="btn btn-light main-button button-red"> sign up</button>
+            </div>
+            <div class="col-6">
+                <img width="586" height="405" alt="">
             </div>
         </div>
-    </header>
-    <main>
+        <div class="d-flex row">
+            <div class="col-6">
+                <img width="586" height="405" alt="">
+            </div>
+            <div class="col-6 ">
+                <h3>Ipsum dolor sit amet</h3>
+                <p>
+                    Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor
+                    lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+                </p>
+                <p>
+                    Quisque ut erat ornare, feugiat turpis a, fringilla felis.
+                    Nulla molestie lorem et orci sagittis, et accumsan ex porta.
+                </p>
+                <button type="button" class="btn btn-light main-button button-fiolent"> sign up</button>
+            </div>
 
-    </main>
-    <footer>
-        <div class="container">
+        </div>
+</section>
+<section class="bg-orange">
+    <div class="container">
+        <div class="footer-list d-flex .justify-content-center">
+            <ul class="col-4">
+                <li>
+                    <a href="#">Ad litora torquent</a>
+                </li>
+                <li>
+                    <a href="#">Per conubia</a>
+                </li>
+                <li>
+                    <a href="#">Nostra</a>
+                </li>
+                <li>
+                    <a href="#">Per inceptos</a>
+                </li>
+                <li>
+                    <a href="#">Himenaeos</a>
+                </li>
+                <li>
+                    <a href="#">In consectetur</a>
+                </li>
+            </ul>
+            <ul class="col-4">
+                <li>
+                    <a href="#">Taciti sociosqu</a>
+                </li>
+                <li>
+                    <a href="#">Ad litora torquent</a>
+                </li>
+                <li>
+                    <a href="#">Per conubia</a>
+                </li>
+                <li>
+                    <a href="#">Himenaeos</a>
+                </li>
+                <li>
+                    <a href="#">In consectetur</a>
+                </li>
+                <li>
+                    <a href="#">Nisi sed blandit</a>
+                </li>
+                <li>
+                    <a href="#">Tincidunt</a>
+                </li>
+            </ul>
+            <ul class="col-4">
+                <li>
+                    <a href="#">Nostra</a>
+                </li>
+                <li>
+                    <a href="#">Per inceptos</a>
+                </li>
+                <li>
+                    <a href="#">Himenaeos</a>
+                </li>
+                <li>
+                    <a href="#">In consectetur</a>
+                </li>
+                <li>
+                    <a href="#">Nisi sed blandit</a>
+                </li>
+                <li>
+                    <a href="#">Tincidunt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <footer class="section-form">
+        <div class="container text-center">
+            <p class="text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                Try awsome tool for desgners <span>symu.co</span></p>
         </div>
     </footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
 </body>
 </html>
